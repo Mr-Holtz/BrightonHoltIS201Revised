@@ -1,0 +1,134 @@
+.common {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    background-color: #424242;
+    color: #ffffff;
+    margin: auto;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background-color: #494949;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.header2 {
+    background-color: #313131;
+    padding: 15px;
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #d06dda, #8e74ff); /* Horizontal gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Navigation */
+.nav {
+    background-color: #4e4e4e;
+    padding: 10px;
+    text-align: right;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+}
+
+.nav a:hover {
+    background-color: #464646;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid transparent; 
+    transition: border-radius 0.3s ease;
+}
+
+
+/* Main Content */
+.body {
+    padding: 50px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: justify;
+    background-color: #4e4e4e;
+    
+}
+
+.video {
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+    aspect-ratio: 16/9;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #202020;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.link2 {
+    color: #ffffff;
+    text-decoration: underline;
+    position: right;
+}
+
+.tableauPlaceholder {
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+    padding: auto;
+    display: block;
+    aspect-ratio: 16/9;
+    border: 1px solid #202020;
+}
+
+/* Footer */
+.footer {
+    background-color: #494949;
+    padding: 15px;
+    font-size: 16px;
+    text-align: justify;
+    margin: auto; 
+}
+
+.footer2 {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: #494949;
+    font-size: 16px;
+    text-decoration: none;
+}
